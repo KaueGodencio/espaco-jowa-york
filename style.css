@@ -14,15 +14,17 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-   
+
 
 }
 
 .font_tornado {
     font-family: "Undergrunge-Tornado";
-    font-size: 24px;   
+    font-size: 24px;
 
 }
+
+.font {}
 
 .main-container {
     max-width: 560px;
@@ -36,10 +38,10 @@ body {
 
 }
 
-.card{
+.card {
     background-color: #000000;
 
-   
+
 
 }
 
@@ -62,13 +64,13 @@ body {
 
 .slick-dots li.slick-active button:before {
     opacity: .75;
-    color:red !important;
+    color: red !important;
 }
 
-.card img{
-object-fit: cover;
-object-position: 10% -20px;
-border-radius: 20px;
+.card img {
+    object-fit: cover;
+    object-position: 10% -20px;
+    border-radius: 20px;
 }
 
 #img-banner {
@@ -115,8 +117,8 @@ border-radius: 20px;
 
 }
 
-.box_servico{
- 
+.box_servico {
+
     display: flex;
     justify-content: center;
 
@@ -130,20 +132,65 @@ border-radius: 20px;
     padding: 0;
     margin: 0;
     list-style: none;
-   
+
 }
 
 .single-item img {
     width: 100%;
-    height: 250px;
-  }
-  #slide-1{
+    height: 400px;
+}
+
+#slide-1 {
 
     background: url(img/Captura\ de\ tela\ 2024-11-14\ 174555.png) no-repeat center center;
     background-size: cover;
-    background-position:top; /* Posiciona a imagem no topo */
+    background-position: top;
+    /* Posiciona a imagem no topo */
 
-  }
+}
+
+.progress,
+.progress-stacked {
+    --bs-progress-height: 0.2rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bg: var(--bs-secondary-bg);
+    --bs-progress-border-radius: var(--bs-border-radius);
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg:red;
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color:#353535b0;
+    margin-bottom: 10px;
+    border-radius: var(--bs-progress-border-radius);
+}
+
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #6c757d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #5c636a;
+    --bs-btn-hover-border-color: #565e64;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #565e64;
+    --bs-btn-active-border-color: #51585e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6c757d;
+    --bs-btn-disabled-border-color: #6c757d;
+}
+
+.txt_destaque{
+    font-size: 26px;
+    
+
+}
 
 
 
@@ -153,7 +200,7 @@ border-radius: 20px;
         background: #121214;
         height: 100%;
         display: flex;
-        
+
 
     }
 
@@ -192,20 +239,19 @@ border-radius: 20px;
         background-color: #000000;
         height: 100%;
         display: flex;
-        
+
 
     }
 
     .single-item img {
         width: 100%;
-        height: 150px;
+        height: 250px !important;
     }
 
-   
+
 
 
 
 
 
 }
-
