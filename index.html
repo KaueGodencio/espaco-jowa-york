@@ -57,8 +57,9 @@
 
     <!-- Botões para abrir modais de links -->
     <div class="row m-2 pt-3 justify-content-center">
-      <button type="button" class=" btn btn-secondary btn_person me-md-2 mb-2" data-bs-toggle="modal"
-        data-bs-target="#modalLink1"> Agendar o seu Horário</button>
+    <!--   <button type="button" class=" btn btn-secondary btn_person me-md-2 mb-2" data-bs-toggle="modal"
+        data-bs-target="#modalLink1"> Agendar o seu Horário</button> -->
+      <a  href="https://api.whatsapp.com/send?phone=5511979529543" target="_blank" type="button" class=" btn btn-secondary btn_person me-md-2 mb-2"> Agendar o seu Horário</a>
 
       <button type="button" class="btn btn-secondary btn_person me-md-2 mb-2" data-bs-toggle="modal"
         data-bs-target="#modalLink3">Delivery Espetinho</button>
@@ -309,11 +310,13 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalLink3Label">Espetinho</h5>
+          <h5 class="modal-title" id="modalLink3Label"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-exclamation-diamond-fill" viewBox="0 0 16 16">
+            <path d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098zM8 4c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995A.905.905 0 0 1 8 4m.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg> Espetinho</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>Conteúdo do link 3. <a href="#" target="_blank">Acesse aqui</a>.</p>
+          <p>Informamos que, no momento, não estamos realizando entregas de espetinhos.  <!-- <a href="#" target="_blank">Acesse aqui</a>. --></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
